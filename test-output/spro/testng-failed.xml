@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [spro]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="school test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.dps.TestCase.TC_002_LoginTest">
+        <methods>
+          <include name="LoginDDT" invocation-numbers="0 1 2 3 4"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.dps.TestCase.TC_002_LoginTest -->
+    </classes>
+  </test> <!-- school test(failed) -->
+</suite> <!-- Failed suite [spro] -->
